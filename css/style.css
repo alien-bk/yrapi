@@ -1,0 +1,63 @@
+#container_parent{
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: row;    
+}
+
+
+#container_uncle{
+    width: 75%;
+    border: solid red 1px;
+    height: 100%;
+    background-image: url(../bilder/pexels-photo-87739.jpg); 
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body {
+    margin: 0px;
+}
+
+#weather_container {
+    border: 1px solid red;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.weather_box {
+    border: 1px solid blueviolet;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.name_box {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather_slit {
+    background-color: whitesmoke;
+    height: 50%;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+}
